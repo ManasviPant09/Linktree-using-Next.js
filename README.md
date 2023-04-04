@@ -1,7 +1,7 @@
 ## Linktree using Next.js
 ### A linktree clone built using Next.js, React.js which makes use of Tailwind CSS for styling.
 ### Checkout the deployed website - 
-https://linktree-using-next-js.vercel.app/
+https://linktree-using-next-js-5k1e.vercel.app/
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
