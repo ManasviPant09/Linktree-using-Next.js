@@ -24,7 +24,7 @@ export const data = [
             },
             {
                 title: "Instagram",
-                url : "https://www.instagram.com/_manasvipant/?igshid=YmMyMTA2M2Y="
+                url : "https://www.instagram.com"
             },
         ]
     }
