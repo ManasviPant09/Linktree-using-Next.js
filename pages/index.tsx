@@ -25,7 +25,7 @@ const Socialcard = ({item}: {item: {title: string; url:string}}) =>{
     router.push(item.url);
   };
   return(
-    <span className="flex justify-center mr-4 mt-4">
+    <span className="flex justify-center mr-4 mt-4 cursor-pointer hover:transform hover:scale-150">
       {item.title === "Medium" && <FontAwesomeIcon icon={faMedium} onClick={handleClick}/>} {item.title === "Instagram" && <FontAwesomeIcon icon={faInstagram} onClick={handleClick}/>}
     </span>
   );
@@ -34,10 +34,10 @@ const Socialcard = ({item}: {item: {title: string; url:string}}) =>{
 
 export default function Home() {
   return (
-    <div className="container mx-auto" style={{backgroundImage: "linear-gradient(to top,#003A6B,#83A3BE,white 80%); min-height: 600px;"}}>
+    <div className="container mx-auto box-container" style={{backgroundImage: "linear-gradient(to top,#003A6B,#83A3BE,white 72%); min-height: 600px;"}}>
     <div className="flex justify-center w-full mt-8">
       {data.map((property) => (
-        <div key={property.name}>
+        <div key={property.name} className="p-20 border-4 border-white-200 rounded-lg">
           <div className="w-100 h-100">
           <motion.div
           className="box"
